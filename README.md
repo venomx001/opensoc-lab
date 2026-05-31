@@ -108,13 +108,13 @@ Real-time Alerts + MITRE ATT&CK Mapping
 ### Step-by-Step Guides
 | Step | Guide |
 |------|-------|
-| 1 | [VirtualBox Setup](docs/phase1/01-virtualbox-setup.md) |
-| 2 | [Isolated Lab Network](docs/phase1/02-network-setup.md) |
-| 3 | [Wazuh SIEM VM](docs/phase1/03-wazuh-siem-setup.md) |
-| 4 | [Windows Target VM](docs/phase1/04-windows-target-setup.md) |
-| 5 | [Sysmon Installation](docs/phase1/05-sysmon-setup.md) |
-| 6 | [Wazuh Agent Setup](docs/phase1/06-wazuh-agent-setup.md) |
-| 7 | [First Alerts](docs/phase1/07-verification-and-first-alerts.md) |
+| 1 | [VirtualBox Setup]|
+| 2 | [Isolated Lab Network]|
+| 3 | [Wazuh SIEM VM] |
+| 4 | [Windows Target VM] |
+| 5 | [Sysmon Installation] |
+| 6 | [Wazuh Agent Setup] |
+| 7 | [First Alerts] |
 
 ---
 
@@ -142,39 +142,13 @@ data.win.system.eventID: 22
 # Filter by MITRE technique
 rule.mitre.technique: T1110
 ```
-
----
-
-## 📁 Repository Structure
-
-```
-opensoc-lab/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── docs/
-│   ├── phase1/          # Complete Phase 1 setup guides
-│   ├── phase2/          # Attack simulation (coming)
-│   └── phase3/          # Advanced detection (coming)
-├── configs/
-│   ├── sysmon/          # Sysmon XML config
-│   └── wazuh-rules/     # Custom detection rules
-├── detection-rules/
-│   ├── windows/         # Sigma format rules
-│   └── linux/           # Linux detection rules
-├── playbooks/
-│   ├── alert-triage-workflow.md
-│   └── incident-response-template.md
-└── screenshots/         # Lab screenshots
-```
-
 ---
 
 ## 📖 Build Journal
 
 This project involved solving **13 real-world errors** during the build process.
 Every error, root cause, and solution is documented in:
-[📋 Complete Build Journal](docs/build-journal.md)
+[📋 Complete Build Journal](build-journal.md)
 
 This documentation style mirrors professional SOC runbooks.
 
@@ -203,9 +177,9 @@ This documentation style mirrors professional SOC runbooks.
 
 ## 👤 Author
 
-**[Your Name]**
+**PRAVEEN P S**
 Fresher SOC Analyst | Blue Team Enthusiast
-[LinkedIn Profile] | [GitHub Profile]
+www.linkedin.com/in/praveen-p-s-x | [GitHub Profile]
 
 > ⭐ Found this useful? Star the repo to help others find it!
 
