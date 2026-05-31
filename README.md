@@ -179,7 +179,7 @@ This documentation style mirrors professional SOC runbooks.
 
 **PRAVEEN P S**
 Fresher SOC Analyst | Blue Team Enthusiast
-www.linkedin.com/in/praveen-p-s-x | [GitHub Profile]
+www.linkedin.com/in/praveen-p-s-x | (https://github.com/venomx001)
 
 > ⭐ Found this useful? Star the repo to help others find it!
 
