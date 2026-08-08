@@ -154,37 +154,9 @@ This documentation style mirrors professional SOC runbooks.
 
 ---
 
-## 🗺️ Roadmap
-
-### Phase 1 ✅ (Complete)
-- Wazuh SIEM + Windows endpoint + Sysmon
-- Real-time log ingestion and alerting
-- MITRE ATT&CK mapping
-
-### Phase 2 🔧 (In Progress)
-- Kali Linux attacker VM
-- Atomic Red Team attack simulation
-- Sigma rules integration
-- TheHive case management
-
-### Phase 3 📋 (Planned)
-- Active Directory attack scenarios
-- Threat hunting exercises
-- Custom detection rule library
-- Full incident response simulations
-
----
 
 ## 👤 Author
 
 **PRAVEEN P S**
 Fresher SOC Analyst | Blue Team Enthusiast
 www.linkedin.com/in/praveen-p-s-x | (https://github.com/venomx001)
-
-> ⭐ Found this useful? Star the repo to help others find it!
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
