@@ -150,8 +150,6 @@ This project involved solving **13 real-world errors** during the build process.
 Every error, root cause, and solution is documented in:
 [📋 Complete Build Journal](build-journal.md)
 
-This documentation style mirrors professional SOC runbooks.
-
 ---
 
 
